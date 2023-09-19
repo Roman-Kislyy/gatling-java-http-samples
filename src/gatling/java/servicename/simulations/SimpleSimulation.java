@@ -1,4 +1,4 @@
-package shopping;
+package servicename.simulations;
 
 import io.gatling.javaapi.core.ChainBuilder;
 import io.gatling.javaapi.core.FeederBuilder;
@@ -10,6 +10,16 @@ import static io.gatling.javaapi.core.CoreDsl.*;
 import static io.gatling.javaapi.http.HttpDsl.http;
 import static ru.tinkoff.gatling.javaapi.SimulationConfig.getStringParam;
 
+/**
+ * <h2>В данной симуляции приводится простой пример симуляции</h2>
+ * <p>
+ * В тестах с большим количеством вызовов нужно декомпозировать логику на сценарии и действия, и разложить в scenarios и actions соответственно.
+ * Тут можно рассказать, как собирать профиль нагрузки. В чем особенность теста.
+ *
+ * Кстати, в качестве сайта-примера используется этот проект https://github.com/Roman-Kislyy/web-tutorial-shopping-center/blob/master/README.md#quick-start
+ * @author  Roman Kislyy
+ * @since 2023-08-11
+ */
 public class SimpleSimulation extends Simulation {
     FeederBuilder<String> feeder = csv("pools/search.csv").random();
     ChainBuilder search =
