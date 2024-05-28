@@ -13,11 +13,12 @@ Gatling Java HTTP tests
 
 
 # Небольшие инструкции по работе с Gatling и Gradle:
-[docs/how-to-slides/Gtg-How to start test.pptx](Как запустить тест при помощи Gradle)
-[docs/how-to-slides/Gtg-Variables.pptx](Какие бывают переменные в Gatling)
-[docs/how-to-slides/Gtg-Scenario injections, load, users.pptx](Про разные сценарии нагрузки. Максимум, стресс и другое)
-[docs/how-to-slides/Gtg-Termins, script structure.pptx](О структуре скриптов на Gatling. Термины для начинающих)
-[docs/how-to-slides/Gtg-HTTP-Recording.pptx](Как воспользоваться HTTP recorder для записи скрипта)
+
+- [Как запустить тест при помощи Gradle](docs/how-to-slides/Gtg-How-to-start-test.pptx)
+- [Какие бывают переменные в Gatling](docs/how-to-slides/Gtg-Variables.pptx)
+- [Про разные сценарии нагрузки. Максимум, стресс и другое](docs/how-to-slides/Gtg-Scenario-injections-load-users.pptx)
+- [О структуре скриптов на Gatling. Термины для начинающих](docs/how-to-slides/Gtg-Termins-script-structure.pptx)
+- [Как воспользоваться HTTP recorder для записи скрипта](docs/how-to-slides/Gtg-HTTP-Recording.pptx)
  
 # Быстрый старт
 
